@@ -88,7 +88,7 @@ const AudioControls = ({ isAudioResponse, filterMessageObjects, messages, setMes
       endpoints: [
         {
           name: "api",
-          endpoint: "https://432543543.execute-api.us-east-1.amazonaws.com/dev"
+          endpoint: "https://gv6nxhb9qg.execute-api.us-east-1.amazonaws.com/dev"
         }
       ]
     }
