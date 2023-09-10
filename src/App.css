@@ -1,0 +1,50 @@
+/* Overall styles for the chatbot container */
+.App {
+  text-align: center;
+  background-color: #f0f0f0; /* Background color for the chatbot container */
+  padding: 20px; /* Add some padding for spacing */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Styles for the chatbot's header */
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  border-radius: 10px 10px 0 0; /* Rounded top corners */
+}
+
+/* Styles for the chatbot's content */
+.App-content {
+  padding: 20px;
+}
+
+/* Styles for the chatbot's logo */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Animation for the logo */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Link style */
+.App-link {
+  color: #61dafb;
+  text-decoration: none; /* Remove underlines from links */
+}
+
+/* Keyframe animation for logo spin */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
